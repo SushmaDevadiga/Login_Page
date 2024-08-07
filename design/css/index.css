@@ -1,0 +1,129 @@
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.login-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-inner{
+    width: auto;
+    height: auto;
+    min-width: 50%;
+    padding: 40px 60px;
+    margin: 0;
+    position: relative;
+    border: 3px solid #f1f2f2;
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4CAF50;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0 0 30px;
+}
+form{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.login-div{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 20px;
+    display: grid;
+}
+label{
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    color: #2196F3;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0 0 10px;
+}
+input{
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    margin: 0 0 0px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+input:focus, input:focus-visible{
+    box-shadow: none;
+    outline: none;
+}
+button{
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    background-color:  #2196F3;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    margin: 0 0 0px;
+    border: none;
+    cursor: pointer;
+}
+.div1, .div2{
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    color: #f70000;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px;
+    margin: 0 0 0px;
+}
+
+@media(max-width:767px){
+    .login-inner{
+        padding: 25px 25px;
+        min-width: 75%;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
